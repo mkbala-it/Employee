@@ -1,4 +1,4 @@
-var serviceURL = "http://localhost:8080/directory/services/";
+var serviceURL = "http://demo.wishboneinteractive.com/directory/services/";
 
 var employees;
 

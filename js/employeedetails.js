@@ -1,6 +1,6 @@
 $('#detailsPage').live('pageshow', function(event) {
 	var id = getUrlVars()["id"];
-	$.getJSON(serviceURL + 'getemployee.php?id='+id, displayEmployee);
+	$.getJSON(serviceURL + 'http://demo.wishboneinteractive.com/directory/services/getemployee.php?id='+id, displayEmployee);
 });
 
 function displayEmployee(data) {
